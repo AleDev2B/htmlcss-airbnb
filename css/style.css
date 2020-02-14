@@ -1,0 +1,63 @@
+#barcelonapic{
+  background:url("https://www.fly2europetravel.com/wp-content/uploads/2014/06/Barcelona.jpg");
+  height: 70vh;
+  width: 70vw;
+  background-size:cover;
+  border:solid;
+  }
+
+#milanopic{
+  background:url("https://openonline.imgix.net/wp-content/uploads/2019/09/16160904/MILANO-TAG.jpg");
+  height: 70vh;
+  width: 70vw;
+  background-size:cover;
+  border:solid;
+  }
+
+#nycpic{
+  background:url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_720,q_75,w_1400/v1/clients/newyorkcity/Pier_17_Lower_Manhattan_NYC_PIER_17_AERIAL_CITYSCAPE_a018289e-2bb4-463a-951a-4978ccb0f4e0.jpg");
+  height: 70vh;
+  width: 70vw;
+  background-size:cover;
+  border:solid;
+  }
+
+.fotocitta{
+  height: 70vh;
+  width: 70vw;
+  }
+#text{
+  
+}
+
+/* questo è la proposta(1) di css (ho inserito sotto anche il codice html):
+
+.photo{
+border: solid;
+width: 600px;
+height: auto;
+}
+.fotocitta{
+width: 600px;
+height: auto;
+}
+
+in base a questa struttura dell'html (con un unica classe per tutti e 3 chiamata photo) che contiene ognuno le 3 immagini senza la proprietà background :
+
+<body>
+  <main>
+
+    <div class="photo">
+      <img class="fotocitta" src="img/barcelonapic.jpeg" alt="foto citta barcellona">
+    </div>
+    <div class="photo">
+      <img class="fotocitta" src="img/milanopic.jpeg" alt="foto citta milano">
+    </div>
+    <div class="photo">
+      <img class="fotocitta"src="img/nycpic.jpg" alt="foto citta nyc">
+    </div>
+  </main>
+</body>
+*/
+
+/* questo è la proposta(2) di css :*/
